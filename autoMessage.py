@@ -10,6 +10,7 @@ message = day + "\n*Presensi duluu ebellll* _[automatic Message with python]_"
 hour = [7, 8, 9, 10, 11, 12, 13, 14, 15]
 minute = [00, 30, 15, 20]
 if (day == "Monday"):
+    print(day)
     pywhatkit.sendwhatmsg(phoneNumber[0], message, hour[0], minute[0])
     time.sleep(1)
     pyautogui.click()
@@ -19,6 +20,7 @@ if (day == "Monday"):
     pyautogui.moveTo(1250, 10, duration=4)
     pyautogui.click()
 
+    print(day)
     pywhatkit.sendwhatmsg(phoneNumber[0], message, hour[3], minute[1])
     time.sleep(1)
     pyautogui.click()
@@ -29,6 +31,7 @@ if (day == "Monday"):
     pyautogui.click()
 
 if (day == "Tuesday"):
+    print(day)
     pywhatkit.sendwhatmsg(phoneNumber[0], message, hour[2], minute[1])
     time.sleep(1)
     pyautogui.click()
@@ -38,6 +41,7 @@ if (day == "Tuesday"):
     pyautogui.moveTo(1250, 10, duration=4)
     pyautogui.click()
 
+    print(day)
     pywhatkit.sendwhatmsg(phoneNumber[0], message, hour[5], minute[0])
     time.sleep(1)
     pyautogui.click()
@@ -69,6 +73,7 @@ if (day == "Wednesday"):
     pyautogui.click()
 
 if (day == "Thursday"):
+    print(day)
     pywhatkit.sendwhatmsg(phoneNumber[0], message, hour[0], minute[0])
     time.sleep(1)
     pyautogui.click()
@@ -78,6 +83,7 @@ if (day == "Thursday"):
     pyautogui.moveTo(1250, 10, duration=4)
     pyautogui.click()
 
+    print(day)
     pywhatkit.sendwhatmsg(phoneNumber[0], message, hour[7], minute[1])
     time.sleep(1)
     pyautogui.click()
@@ -88,6 +94,7 @@ if (day == "Thursday"):
     pyautogui.click()
 
 if (day == "Friday"):
+    print(day)
     pywhatkit.sendwhatmsg(phoneNumber[0], message, hour[0], minute[0])
     time.sleep(1)
     pyautogui.click()
@@ -97,6 +104,7 @@ if (day == "Friday"):
     pyautogui.moveTo(1250, 10, duration=4)
     pyautogui.click()
 
+    print(day)
     pywhatkit.sendwhatmsg(phoneNumber[0], message, hour[2], minute[1])
     time.sleep(1)
     pyautogui.click()
